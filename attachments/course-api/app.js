@@ -1,6 +1,7 @@
-const bodyParser = require("body-parser");
 const express = require("express");
-const fs = require("fs/promises");
+const bodyParser = require("body-parser");
+
+const courseRoutes = require("./routes/courses");
 
 const app = express();
 
@@ -9,18 +10,17 @@ app.use(express.static("public"));
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
 
-app.get("/courses", async (req, res) => {
-  const result = await fs.readFile("data/courses.json", "utf8");
-  res.json(JSON.parse(result));
-});
+app.use("/courses", courseRoutes);
 
-app.use((req, res) => {
-  res.status(404).json({ message: "Not found" });
+app.use((error, req, res, next) => {
+  const status = error.status || 500;
+  const message = error.message || "Something went wrong.";
+  res.status(status).json({ message: message });
 });
 
 app.listen(5000);

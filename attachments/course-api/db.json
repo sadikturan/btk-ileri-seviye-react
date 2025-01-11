@@ -1,0 +1,58 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "HTML5 ile Web Geliştirme",
+      "description": "Bu eğitimin amacı temel düzeyde işletim sistemi kullanmayı bilen herkese HTML ve CSS teknolojilerini öğreterek orta/orta üstü düzeyde kişisel veya kurumsal web sitesi yapabilecek beceriyi kazandırmaktır.",
+      "image": "1.jpg",
+      "users": "535",
+      "likes": "50",
+      "comments": "25"
+    },
+    {
+      "id": "2",
+      "title": "Sıfırdan İleri Seviye Python Programlama",
+      "description": "Yazılım, donanım ve bilisim dünyasına ait temel kavramların ögretilmesi. Kursiyerlerin ilerleyen dersler boyunca yazılım yeteneklerini gelistirmesi hedeflenir. Oldukça yaygın bir sekilde kullanılan yazılım dilleri konusunda fikir sahibi olması saglanır.",
+      "image": "2.jpg",
+      "users": "535",
+      "likes": "50",
+      "comments": "25"
+    },
+    {
+      "id": "3",
+      "title": "Uygulamalarla SQL Öğreniyorum",
+      "description": "Katılımcılara, Microsoft SQL Server üzerinde SQL dilini aktarmak ve  uygulamalar aracılığı ile SQL becerilerinin gelişmesini sağlamaktır.",
+      "image": "3.jpg",
+      "users": "235",
+      "likes": "20",
+      "comments": "15"
+    },
+    {
+      "id": "4",
+      "title": "C# Programlama",
+      "description": "Katılımcıların C# programlama dilini kullanarak farklı platformlarda uygulama geliştirebilecek eğitimlere katılma yeterliliğini elde etmelerini sağlamaktır.",
+      "image": "4.jpg",
+      "users": "515",
+      "likes": "20",
+      "comments": "35"
+    },
+    {
+      "id": "5",
+      "title": "JAVA ile Programlamaya Giriş",
+      "description": "Java Programlama Dilinin tüm inceliklerinin ve kurallarının aktarılması ile Nesne Yönelimli Programlama mantığının kavranması hedeflenmektedir.",
+      "image": "5.jpg",
+      "users": "535",
+      "likes": "50",
+      "comments": "25"
+    },
+    {
+      "id": "6",
+      "title": "PHP 8 ile Web Uygulama Geliştirme",
+      "description": "Temel düzeyde HTML,CSS bilgisi ile PHP programlama dilini kullanarak web uygulamaları geliştirmektir.",
+      "image": "6.jpg",
+      "users": "235",
+      "likes": "10",
+      "comments": "42"
+    }
+  ]
+}
