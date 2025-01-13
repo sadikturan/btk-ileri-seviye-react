@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Mont 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "1.jpg",
+      "price": "2300"
+    },
+    {
+      "id": "2",
+      "title": "Mont 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "2.jpg",
+      "price": "2100"
+    },
+    {
+      "id": "3",
+      "title": "Mont 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "3.jpg",
+      "price": "2400"
+    },
+    {
+      "id": "4",
+      "title": "Mont 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "4.jpg",
+      "price": "1800"
+    },
+    {
+      "id": "5",
+      "title": "Mont 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "5.jpg",
+      "price": "3200"
+    },
+    {
+      "id": "6",
+      "title": "Mont 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "6.jpg",
+      "price": "3400"
+    }
+  ]
+}
