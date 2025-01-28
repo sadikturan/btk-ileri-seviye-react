@@ -1,0 +1,10 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
