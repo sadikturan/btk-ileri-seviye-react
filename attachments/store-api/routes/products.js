@@ -9,6 +9,7 @@ router.get("/", async (req, res, next) => {
   try {
     const products = await getAll();
     res.json(products);
+    // throw new ServerError("Server hatası oluştu", "Api Hatası");
   } catch (error) {
     next(error);
   }
