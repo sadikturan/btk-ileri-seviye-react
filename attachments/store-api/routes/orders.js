@@ -1,7 +1,7 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 
-const { getAll, get, add } = require("../data/orders");
+const { getAll, get, add, payment } = require("../data/orders");
 const { getCart } = require("../data/carts");
 
 const router = express.Router();
@@ -25,7 +25,7 @@ const verifyToken = (req, res, next) => {
 
 router.get("/", verifyToken, async (req, res, next) => {
   try {
-    const orders = await getAll();
+    const orders = await getAll(req.user.username);
     res.status(200).json(orders);
   } catch (error) {
     next(error);
@@ -34,7 +34,7 @@ router.get("/", verifyToken, async (req, res, next) => {
 
 router.get("/:id", verifyToken, async (req, res, next) => {
   try {
-    const order = await get(req.params.id);
+    const order = await get(req.params.id, req.user.username);
     res.json(order);
   } catch (error) {
     next(error);
@@ -46,12 +46,12 @@ router.post("/", verifyToken, async (req, res, next) => {
     ...req.body,
     username: req.user.username,
     customerId: req.cookies.customerId,
-    // customerId: "e30ac1c0-32f5-4e29-b811-7a9af68c2a84",
   };
 
   try {
     const id = await add(order);
     res.status(201).json({ message: "Order saved.", orderId: id });
+    // await payment(order);
   } catch (error) {
     next(error);
   }

@@ -47,23 +47,7 @@
     {
       "id": "da81ea9d-83bc-4e0d-8653-a06bc29e9ee1",
       "customerId": "e30ac1c0-32f5-4e29-b811-7a9af68c2a84",
-      "cartItems": [
-        {
-          "id": "2918f65c-435d-4841-8ede-f2842bf77d47",
-          "productId": "1",
-          "quantity": 2
-        },
-        {
-          "id": "70acbde5-9b4b-4518-be21-4cb8da03781c",
-          "productId": "2",
-          "quantity": 2
-        },
-        {
-          "id": "198efd02-7833-4c21-b806-a7eeb6bcd9f5",
-          "productId": "4",
-          "quantity": 2
-        }
-      ]
+      "cartItems": []
     }
   ],
   "users": [
